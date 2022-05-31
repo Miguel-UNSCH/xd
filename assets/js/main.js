@@ -1,25 +1,19 @@
-/*=============== LINK ACTIVE ===============*/
-const linkColor = document.querySelectorAll('.nav__link')
+/*=============== CHANGE BACKGROUND HEADER ===============*/
 
-function colorLink(){
-    linkColor.forEach(l => l.classList.remove('active-link'))
-    this.classList.add('active-link')
-}
 
-linkColor.forEach(l => l.addEventListener('click', colorLink))
+/*=============== SWIPER POPULAR ===============*/
 
-/*=============== SHOW HIDDEN MENU ===============*/
-const showMenu = (toggleId, navbarId) =>{
-    const toggle = document.getElementById(toggleId),
-    navbar = document.getElementById(navbarId)
 
-    if(toggle && navbar){
-        toggle.addEventListener('click', ()=>{
-            /* Show menu */
-            navbar.classList.toggle('show-menu')
-            /* Rotate toggle icon */
-            toggle.classList.toggle('rotate-icon')
-        })
-    }
-}
-showMenu('nav-toggle','nav')
+/*=============== VALUE ACCORDION ===============*/
+
+
+/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
+
+
+/*=============== SHOW SCROLL UP ===============*/ 
+
+
+/*=============== DARK LIGHT THEME ===============*/ 
+
+
+/*=============== SCROLL REVEAL ANIMATION ===============*/
