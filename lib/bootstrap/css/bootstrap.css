@@ -97,6 +97,7 @@ abbr[data-original-title] {
   cursor: help;
   border-bottom: 0;
 }
+.row{}
 
 address {
   margin-bottom: 1rem;
